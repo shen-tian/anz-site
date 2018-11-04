@@ -12,11 +12,6 @@
     "name": {
       "default": "",
       "type": "string"
-    },
-    "articles": {
-      "collection": "article",
-      "via": "publication",
-      "columnName": ""
     }
   }
 }
