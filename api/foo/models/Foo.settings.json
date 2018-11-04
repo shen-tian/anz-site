@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "foo",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "bar": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
