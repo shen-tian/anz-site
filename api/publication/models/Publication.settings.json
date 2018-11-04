@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "publication",
   "info": {
     "name": "publication",
     "description": ""
@@ -15,7 +15,8 @@
     },
     "articles": {
       "collection": "article",
-      "via": "publication"
+      "via": "publication",
+      "columnName": ""
     }
   }
 }
