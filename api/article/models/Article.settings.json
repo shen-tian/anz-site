@@ -32,6 +32,16 @@
     "publication": {
       "model": "publication",
       "via": "articles"
+    },
+    "cover-image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "cover-image-uri": {
+      "default": "",
+      "type": "string"
     }
   }
 }
