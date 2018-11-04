@@ -28,6 +28,10 @@
     "link": {
       "default": "",
       "type": "string"
+    },
+    "publication": {
+      "model": "publication",
+      "via": "articles"
     }
   }
 }
