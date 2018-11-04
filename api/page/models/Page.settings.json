@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "page",
+    "description": "Pages. No chronology"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "slug": {
+      "default": "",
+      "type": "string"
+    },
+    "content": {
+      "default": "",
+      "type": "text"
+    },
+    "cover-image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
