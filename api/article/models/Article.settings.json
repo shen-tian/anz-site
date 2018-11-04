@@ -38,10 +38,6 @@
       "via": "related",
       "plugin": "upload",
       "required": false
-    },
-    "cover-image-uri": {
-      "default": "",
-      "type": "string"
     }
   }
 }
