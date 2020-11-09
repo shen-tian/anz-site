@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "deep-extend": ">=0.5.1",
-    "lodash": "4.17.11",
+    "lodash": "4.17.19",
     "strapi": "^3.0.0-alpha.14.4.0",
     "strapi-hook-mongoose": "3.0.0-alpha.14",
     "strapi-upload-cloudinary": "^3.0.0-alpha.14.4.0"
