@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "publications",
+  "collectionName": "articles",
   "info": {
-    "name": "Publication"
+    "name": "Article",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -10,7 +11,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "Name": {
+    "publication": {
+      "model": "publication"
+    },
+    "title": {
       "type": "string"
     }
   }
