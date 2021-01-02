@@ -11,11 +11,23 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "title": {
+      "type": "string"
+    },
     "publication": {
       "model": "publication"
     },
-    "title": {
+    "slug": {
       "type": "string"
+    },
+    "date_published": {
+      "type": "date"
+    },
+    "link": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
