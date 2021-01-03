@@ -12,22 +12,28 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "publication": {
       "model": "publication"
     },
     "slug": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "date_published": {
-      "type": "date"
+      "type": "date",
+      "required": true
     },
     "link": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "content": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "cover_image": {
       "model": "file",

@@ -12,13 +12,17 @@
   },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "content": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "slug": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "cover_image": {
       "model": "file",
